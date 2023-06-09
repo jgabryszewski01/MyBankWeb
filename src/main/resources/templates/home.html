@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Home page</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+        <link href="css\styles.css" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <h1>MyBank</h1>
+            <div class="button-group">
+                <button id="signupButton" data-toggle="modal" data-target="#signupModal">Open account</button>
+                <button id="loginButton" data-toggle="modal" data-target="#loginModal">Log in</button>
+            </div>
+        </header>
+
+        <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="loginModalLabel">Log in</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <input type="email" class="form-control" id="email" placeholder="Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="password" class="form-control" id="password" placeholder="Password" required>
+                        </div>
+                            <button type="submit" class="btn btn-primary">Log in</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="signupModal" tabindex="-1" role="dialog" aria-labelledby="signupModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="signupModalLabel">Open account</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <input type="email" class="form-control" id="email" placeholder="Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="password" class="form-control" id="password" placeholder="Password" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="password" class="form-control" id="confirmPassword" placeholder="Repeat password" required>
+                        </div>
+                            <button type="submit" class="btn btn-primary">Open account</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section id="about">
+            <div class="container">
+                <h2>About Us</h2>
+                <div class="row">
+                    <div class="col-md-6">
+                        <h4>MyBank - Your Trusted Financial Partner</h4>
+                        <p>Welcome to MyBank, your reliable and innovative financial institution. We strive to provide exceptional banking services tailored to your needs. With a focus on security, convenience, and customer satisfaction, we are here to help you achieve your financial goals.</p>
+                        <p>At MyBank, we believe in building strong relationships with our customers. We offer a wide range of banking products and services, including personal and business accounts, loans, investments, and more. Our dedicated team of professionals is committed to delivering top-notch financial solutions that empower you to make informed decisions.</p>
+                    </div>
+                    <div class="col-md-6">
+                        <h4>Why Choose MyBank?</h4>
+                        <ul>
+                            <li>Secure and Reliable: We prioritize the security of your financial information and use advanced technologies to safeguard your data.</li>
+                            <li>Convenience at Your Fingertips: Our user-friendly online and mobile banking platforms allow you to manage your finances anytime, anywhere.</li>
+                            <li>Exceptional Customer Service: Our knowledgeable and friendly customer support team is ready to assist you with any inquiries or concerns.</li>
+                            <li>Competitive Rates and Flexible Options: We offer competitive interest rates and flexible financial solutions to meet your individual needs.</li>
+                            <li>Community-Oriented: We are proud to support local communities through various initiatives and philanthropic efforts.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="security">
+            <div class="container">
+                <h2>Security</h2>
+                <div class="row">
+                    <div class="col-md-4">
+                        <h4>1. Protect Your Passwords</h4>
+                        <p>Never share your passwords with anyone, including bank employees. Choose strong passwords that are unique and difficult to guess. Remember to change your passwords regularly.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <h4>2. Be Cautious of Suspicious Links</h4>
+                        <p>Avoid clicking on links in emails or messages that seem suspicious or are from unknown sources. Always type the bank's URL directly into your browser or use trusted bookmarks.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <h4>3. Safeguard Personal Information</h4>
+                        <p>Never provide your personal information, such as Social Security number or PIN, in response to unsolicited requests. Legitimate organizations will not ask for sensitive information via email or phone.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h4>Contact</h4>
+                        <p>Phone: 123-456-789</p>
+                        <p>Email: contact@mybank.com</p>
+                        <p>Address: Bankowa 1, 80-001 Gdańsk</p>
+                    </div>
+                    <div class="col-md-6">
+                        <h4>Working hours</h4>
+                        <p>Monday - Friday: 9:00 - 17:00</p>
+                        <p>Saturday: 9:00 - 13:00</p>
+                        <p>Sunday: closed</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+    </body>
+</html>

@@ -1,4 +1,4 @@
-package com.java.firebase;
+package MBGroup.MyBankWeb;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -32,7 +32,5 @@ public class MyBankApp {
         }
 
         SpringApplication.run(MyBankApp.class, args);
-
-
     }
 }
