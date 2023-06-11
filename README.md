@@ -2,8 +2,6 @@
 
 *In development*
 
-# MyBankWeb
-
 A simplistic app designed to simulate banking applications, web version of MyBank application for android.
 
 ### Copyright
