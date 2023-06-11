@@ -24,12 +24,12 @@
                     </button>
                 </div>
                 <div class="modal-body">
-                    <form>
+                    <form action="/login" method="post">
                         <div class="form-group">
-                            <input type="email" class="form-control" id="email" placeholder="Email" required>
+                            <input type="email" class="form-control" name="email" id="email" placeholder="Email" required>
                         </div>
                         <div class="form-group">
-                            <input type="password" class="form-control" id="password" placeholder="Password" required>
+                            <input type="password" class="form-control" name="password" id="password" placeholder="Password" required>
                         </div>
                             <button type="submit" class="btn btn-primary">Log in</button>
                         </form>
@@ -48,12 +48,12 @@
                     </button>
                 </div>
                 <div class="modal-body">
-                    <form>
+                    <form action="/singup" method="post">
                         <div class="form-group">
-                            <input type="email" class="form-control" id="email" placeholder="Email" required>
+                            <input type="email" class="form-control" id="emailR" placeholder="Email" required>
                         </div>
                         <div class="form-group">
-                            <input type="password" class="form-control" id="password" placeholder="Password" required>
+                            <input type="password" class="form-control" id="passwordR" placeholder="Password" required>
                         </div>
                         <div class="form-group">
                             <input type="password" class="form-control" id="confirmPassword" placeholder="Repeat password" required>

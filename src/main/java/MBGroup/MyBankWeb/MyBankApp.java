@@ -21,8 +21,8 @@ public class MyBankApp {
             FileInputStream refreshToken = new FileInputStream(file.getAbsolutePath());
 
             FirebaseOptions options = FirebaseOptions.builder()
-                    .setCredentials(GoogleCredentials.fromStream(refreshToken))
                     .setDatabaseUrl("https://mybank-2bfb7-default-rtdb.firebaseio.com")
+                    .setCredentials(GoogleCredentials.fromStream(refreshToken))
                     .build();
 
             FirebaseApp.initializeApp(options);
